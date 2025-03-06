@@ -1,7 +1,8 @@
 name: Events Demo 1
-on: 
+on:
   pull_request:
-    - opened
+    types:
+      - opened
   workbench_dispatch:
 jobs:
   deploy:
